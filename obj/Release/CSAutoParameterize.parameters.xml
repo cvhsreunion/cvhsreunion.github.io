@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="CVHSReunionContext-Web.config Connection String" description="CVHSReunionContext Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:cvhsreunion.database.windows.net,1433;Initial Catalog=cvhsreunion;Persist Security Info=False;User ID=brett-admin;Password=Br123220!2;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\brett\\Dropbox\\FRP_GUI_Program\\CVHSReunion\\CVHSReunion\\CVHSReunion\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CVHSReunionContext']/@connectionString" />
+  </parameter>
+  <parameter name="CVHSReunionContext_DatabasePublish-Web.config Connection String" description="CVHSReunionContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="CVHSReunionContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\brett\\Dropbox\\FRP_GUI_Program\\CVHSReunion\\CVHSReunion\\CVHSReunion\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CVHSReunionContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

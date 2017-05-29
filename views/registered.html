@@ -1,0 +1,36 @@
+﻿<div class="container registered app-container">
+    <a href="#!/" class="btn btn-outline-primary container-back">
+        <span class="glyphicon glyphicon-menu-left"><span class="back">Back</span></span>
+    </a>
+    <h1 class="app-container-header">Registered</h1>
+    <h4 class="app-container-header">Class of 2007</h4>
+    <hr />
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+            <div class="panel-heading">Alumni Registered {{"("+users.length +")"}} <i ng-if="Loading" class="fa fa-spinner fa-pulse fa-fw"></i>
+<span class="sr-only">Loading...</span>
+            <div class="input-group">
+                <div class="input-group-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
+                <input name="search" ng-model="searchParams" class="form-control search" placeholder="Search By Name"/>
+            </div>
+            </div>
+
+            <!-- Table -->
+            <table class="table">
+                <thead>
+                    <tr class="alumns">
+                        <th class="td-one">Name</th>
+                        <th class="td-two">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="u in users | orderBy:'lastName' | filter:searchParams" class="alumns">
+                        <td class="td-one">{{u.lastName | proper }}, {{u.firstName | proper}}</td>
+                        <td class="td-two">{{u.status | proper}}</td>
+                    </tr>
+                 
+                </tbody>
+            </table>
+        </div>
+    
+</div>
