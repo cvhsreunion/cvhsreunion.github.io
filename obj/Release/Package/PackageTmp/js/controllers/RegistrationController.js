@@ -30,7 +30,7 @@
                 phoneNumber: $scope.phoneNumber,
                 helpPlanning: $scope.helpPlanning
             }
-            $http.post('/api/alumni', $scope.jsonData).then(function (data) {
+            $http.post('https://cvhsreunion.azurewebsites.net/api/alumni', $scope.jsonData).then(function (data) {
                 $scope.Loading = false;
                 console.log(data);
                 if (data.data == "") {

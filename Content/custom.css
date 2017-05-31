@@ -13,6 +13,7 @@
     color:black;
     
 }
+
 .row h1,.row h4{
     padding-left: 10px;
     padding-right:10px;
@@ -74,6 +75,7 @@ a,ul,p{
     right:12.5%;
     z-index:9999;
 }
+
 .alert-container .panel-body, .alert-container .panel-primary, .alert-container .panel-danger{
     height:100%;
     text-align:center;

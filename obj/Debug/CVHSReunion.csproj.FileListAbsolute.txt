@@ -92,3 +92,7 @@ C:\Users\brett\Dropbox\FRP_GUI_Program\CVHSReunion\CVHSReunion\CVHSReunion\obj\D
 C:\Users\brett\Dropbox\FRP_GUI_Program\CVHSReunion\CVHSReunion\CVHSReunion\obj\Debug\CVHSReunion.dll
 C:\Users\brett\Dropbox\FRP_GUI_Program\CVHSReunion\CVHSReunion\CVHSReunion\obj\Debug\CVHSReunion.pdb
 C:\Users\brett\Dropbox\FRP_GUI_Program\CVHSReunion\CVHSReunion\CVHSReunion\obj\Debug\CVHSReunion.Migrations.addHistory.resources
+C:\Users\brett\Dropbox\FRP_GUI_Program\CVHSReunion\CVHSReunion\CVHSReunion\bin\System.Web.Cors.dll
+C:\Users\brett\Dropbox\FRP_GUI_Program\CVHSReunion\CVHSReunion\CVHSReunion\bin\System.Web.Http.Cors.dll
+C:\Users\brett\Dropbox\FRP_GUI_Program\CVHSReunion\CVHSReunion\CVHSReunion\bin\System.Web.Http.Cors.xml
+C:\Users\brett\Dropbox\FRP_GUI_Program\CVHSReunion\CVHSReunion\CVHSReunion\obj\Debug\CVHSReunion.csprojResolveAssemblyReference.cache

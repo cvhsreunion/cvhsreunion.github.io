@@ -2,7 +2,21 @@
     <div class="jumbotron">
         <h1>Class of 2007</h1>
         <hr />
+        
+            <div style="">
+                <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+                    <div uib-slide ng-repeat="slide in slides track by $index" index="$index">
+                        <img ng-src="{{slide.image}}" style="margin:auto;">
+                        
+                    </div>
+                </div>
+            </div>
+            
+        
 
+
+
+        
         <!-- Post Block 
         <div class="row">
             <h4 style="float:left;">Take a Second to Vote</h4><h4 style="float:right;">05/05/2017</h4>

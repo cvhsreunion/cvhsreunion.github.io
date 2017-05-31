@@ -1,4 +1,4 @@
-﻿var app = angular.module('ReunionApp', ['ngRoute', 'ngAnimate']);
+﻿var app = angular.module('ReunionApp', ['ngRoute', 'ngAnimate','ui.bootstrap']);
 
 app.config(function ($routeProvider) {
     $routeProvider
